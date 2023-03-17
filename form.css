@@ -6,7 +6,7 @@
 body{
     background-color: aqua;
     background-repeat: no-repeat;
-    background-image: url(images/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     color: rgba(228, 16, 16, 0.804);
     text-align: left;
