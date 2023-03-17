@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 0, 132);
+
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+    background-color: aliceblue;
+}
+h2{
+    text-align: center;
+    background-color: aliceblue;
+}
+.names{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.table{
+    margin-left: 30%;  
+    margin-top: 2%;
+    background-color: black;
+}
+.paragraph{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.row{
+    background-color: rgb(209, 209, 235);
+}
+.row2{
+    background-color: lightgrey;
+}
+.a{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: 40%;
+    
+}
