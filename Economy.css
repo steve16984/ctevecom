@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hh1{
+    color: red;
+    background-color: antiquewhite;
+}
+.fff{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+
+
+.tt{
+    text-align: center;
+}
+table{
+    background-color: black;
+}
+.heading{
+    background-color: brown;
+}
+.data{
+    background-color: blue;
+    text-align: center;
+}
+.container{
+    background-color: antiquewhite;
+    color: #000;
+}

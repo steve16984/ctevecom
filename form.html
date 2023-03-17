@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<bodyaction="index1.html" method="GET">
+    <h1>NAROK UNIVERSITY COLLEGE ADDMISSION LETTER</h1>
+    <h2>STUDENTS REGESTRATION FORM</h2>
+    <p>Information provided in this form is intended to assist the Office of the Registrar Academic to understand the
+        student better. It will be used for the purposes of improving the student’s welfare while at the University.</p>
+    
+    <h3>PERSONAL DETAILS</h3>
+    
+    <form action="results.html" method="GET">
+        <div>
+           <label for="name">NAME</label>
+           <input type="text" name="name" id="name" placeholder="Surname MiddleName SirName" required>
+        </div>
+        <div>
+           <label for="reg number">UNIVERSITY REGESTRATIOM NUMBER</label>
+           <input type="text" name="reg number" id="reg number" required>
+        </div>
+        <div>
+            <label for="name">EMAIL</label>
+            <input type="email" name="email" id="email" placeholder="peter@gmail.com" required>
+        </div>
+        <div>
+        <label for="age">Age</label>
+        <input type="number" name="number" id="age" min="16" max="200" required>
+        <label for="date ">BRITH DATE</label>
+        <input type="date" name="date" id="date" max="2006-03-06" required>
+        </div>
+        <div>
+        GENDER
+         <div> 
+             <label for="male">MALE</label>
+             <input type="radio" name="gender" id="male" value="male" required>
+             <label for="female">FEMALE</label>
+             <input type="radio" name="gender" id="female" value="female" required> 
+         </div>
+        </div>
+        <div>
+        <label for="number">PHONE NUMBER</label>
+        <input type="number" name="number" id="number" placeholder="0700000000" required>
+        </div>
+        <div>
+        <label for="address">HOME ADDRESS</label>
+        <input type="text"  name="address" id="address" required>
+        </div>
+        <div>
+        <label for="religion">RELIGION</label>
+        <input type="text" name="religion" id="religion" required>
+        </div>
+        <div>
+        <label for="year">YEAR JOINED</label>
+        <input type="date" name="year " id="year " required max="2023-01-01"></select>
+        </div>
+       <h3>EDUCATION DETAILS</h3>
+       <h4>COURSE BEING TAKEN</h4>
+        <div>
+        <label for="addmission">ADDMISSION</label>
+        <input type="text" name="addmission" id="addmission" required>
+        </div>
+        <div>
+        <lable for="school name"> SCOOL NAME</lable>
+        <input type="text" name="school name" id="school name" required>
+        </div>
+        <div>
+        <label for="department">DEPARTMENT</label>
+        <input type="text" name="department" id="department" required>
+        </div>
+        <div>
+        <label for="course title">COURSE TITLE</label>
+        <input type="text" name="corse title" id="course title" required>
+        </div>
+       <h4>PREVIOUS SCHOOL AND QUALIFICATION DETAILS</h4><div class="school">
+        <label for="SCHOOL NAME">SCHOOL NAME</label>
+        <input type="text" name="school name" id="school name" required>
+        <label for="address">SCHOOL ADDRESS</label>
+        <input type="text" name="address" id="address" required>
+        <div>
+        <lable for="results">KCSE RESULTS</lable>
+        <textarea id="results" name="results" placeholder="Give your results and grades of the KCSE results" required></textarea>
+        </div>
+        <div>
+        <label for="qualification">ANY OTHER QUALIFICATIONS</label>
+        <input type="textarea" name="qualification" id="qualification">
+        </div>
+        <div>
+        <label for="games and sports">GAME AND SPORTS <label>
+        <input type="textarea" name="ganes and sports" id="games and sports" placeholder="Say the name and give a brief description" required>
+        </div>
+       <h3>MEDICAL EXAMINATION FORM</h3>
+        <div>
+            Have you ever been addmitted to hospital?
+                <label for="YES">YES </label>
+                <input type="radio" name=" Have you ever been addmitted to hospital?" id="YES">
+                <label for="NO">NO</label>
+                <input type="radio" name=" Have you ever been addmitted to hospital?" id="NO">
+                <label for="answer YES"></label>
+                <textarea type="text" name="answer YES" id="answer YES" placeholder="If answer is YES,state the reason for addmission and date"></textarea>
+            </div>
+            <div>
+             Have yuo ever had the following illnesses?(choose appropriately)
+                <div>
+                Tuberculosis or other chest infection?
+                <label for="YES">YES </label>
+                <input type="radio" name=" Tuberculosis or other chest infection?" id="YES">
+                <label for="NO">NO</label>
+                <input type="radio" name=" Tuberculosis or other chest infection?" id="NO"> 
+                <div>
+                    Heart Disease or Rheumatic Fever?
+                    <label for="YES">YES </label>
+                    <input type="radio" name=" Heart Disease or Rheumatic Fever" id="YES">
+                    <label for="NO">NO</label>
+                    <input type="radio" name=" Heart Disease or Rheumatic Fever" id="NO">
+                </div>
+                <div>
+                    Any Disease of the Digestive system?
+                    <label for="YES">YES </label>
+                    <input type="radio" name=" Any Disease of the Digestive system" id="YES">
+                    <label for="NO">NO</label>
+                    <input type="radio" name=" Any Disease of the Digestive system" id="NO">
+                </div>
+                <div>
+                    Allergies to food or drugs?
+                    <label for="YES">YES </label>
+                    <input type="radio" name=" Allergies to food or drugs" id="YES">
+                    <label for="NO">NO</label>
+                    <input type="radio" name=" Allergies to food or drugs" id="NO">
+                </div>
+                <div>
+                   Malaria?
+                   <label for="YES">YES </label>
+                   <input type="radio" name="  Malaria" id="YES">
+                   <label for="NO">NO</label>
+                   <input type="radio" name="  Malaria" id="NO">
+                </div>
+                <div>
+                     Sexually Transmitted diseases? 
+                    <label for="YES">YES </label>
+                    <input type="radio" name=" Sexually Transmitted diseases" id="YES">
+                    <label for="NO">NO</label>
+                    <input type="radio" name=" Sexually Transmitted diseases" id="NO">
+                </div> 
+                <div>
+                    Poliomyelitis? 
+                   <label for="YES">YES </label>
+                   <input type="radio" name=" Poliomyelitis" id="YES">
+                   <label for="NO">NO</label>
+                   <input type="radio" name=" Poliomyelitis" id="NO">  
+                </div>
+                </div>
+                <div>
+                     Fits, Nervous disease or fainting attacks? 
+                   <label for="YES">YES </label>
+                   <input type="radio" name="   Fits, Nervous disease or fainting attacks" id="YES">
+                   <label for="NO">NO</label>
+                   <input type="radio" name="Fits, Nervous disease or fainting attacks  " id="NO"> 
+                </div>
+                <p>Please present a detailed information on your current helth situation whic is to be presented by a qualified doctor. You are expected to undergo all tests in order to gurantee your health safety.</p>
+                <div>
+                    <label for="concent">DOCTORS CONCENT</label>
+                <input type="file" name="concent" id="concent" required>
+                </div>
+            </div>
+            <p>All students are required to complete filling Joining Instruction forms. Form should be dully filled.Scanned
+                copies of KCSE certificate,result slip,national ID and birth certificate should be attached bellow. 
+                The originals must be presented to the University on the reporting date. While sending your 
+                scanned documents the subject should be your admission number.</p>
+            <label for="scanned documents">DOCUMENTS</label> 
+            <input type="file" name="scanned documents" id="scanned documents" required>
+        </div>
+        <div>
+            <button type="reset">RESET</button> 
+           <button type="submit">SUBMIT</button>
+           <a href="homepage.html">HOME</a>
+        </div>
+    </div>
+    </form>
+</body> 
+</html>
